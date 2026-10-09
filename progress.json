@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T05:59:40.572Z",
+  "generated_at": "2026-10-12T06:22:41.836Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -152,6 +152,50 @@
       "last_pushed_at": "2026-10-12T05:59:39.917Z",
       "language": "python",
       "lines": 26
+    },
+    "math:7": {
+      "kind": "math",
+      "id": "7",
+      "title": "Vector Operations",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/7",
+      "path": "math/0007-vector-operations",
+      "first_solved_at": "2026-10-09T08:25:51.232Z",
+      "last_pushed_at": "2026-10-09T08:25:51.232Z"
+    },
+    "math:9": {
+      "kind": "math",
+      "id": "9",
+      "title": "Matrix Basics",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/9",
+      "path": "math/0009-matrix-basics",
+      "first_solved_at": "2026-10-09T08:31:26.141Z",
+      "last_pushed_at": "2026-10-09T08:31:26.141Z"
+    },
+    "math:10": {
+      "kind": "math",
+      "id": "10",
+      "title": "Matrix Multiplication",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/10",
+      "path": "math/0010-matrix-multiplication",
+      "first_solved_at": "2026-10-09T08:41:15.985Z",
+      "last_pushed_at": "2026-10-09T08:41:15.985Z"
+    },
+    "math:8": {
+      "kind": "math",
+      "id": "8",
+      "title": "Vector Norms and Linear Independence",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/8",
+      "path": "math/0008-vector-norms-and-linear-independence",
+      "first_solved_at": "2026-10-09T08:54:28.480Z",
+      "last_pushed_at": "2026-10-09T08:54:28.480Z"
     }
   }
 }
