@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:22:43.841Z",
+  "generated_at": "2026-10-12T07:12:11.252Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -196,6 +196,19 @@
       "path": "math/0008-vector-norms-and-linear-independence",
       "first_solved_at": "2026-10-09T08:54:28.480Z",
       "last_pushed_at": "2026-10-12T06:22:43.840Z"
+    },
+    "problem:308": {
+      "kind": "problem",
+      "id": "308",
+      "title": "Gradient Direction and Magnitude",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/308",
+      "path": "problems/0308-gradient-direction-and-magnitude",
+      "first_solved_at": "2026-10-12T07:12:10.734Z",
+      "last_pushed_at": "2026-10-12T07:12:10.734Z",
+      "language": "python",
+      "lines": 31
     }
   }
 }
