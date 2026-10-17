@@ -1,29 +1,21 @@
 import numpy as np
+from sklearn.ensemble import VotingClassifier, ExtraTreesClassifier
 from sklearn.linear_model import LogisticRegression
-# You can import any sklearn module you need
+from sklearn.svm import SVC
 
 def train(X_train, y_train, X_val, y_val):
-    """
-    Train a binary classifier.
-    
-    Args:
-        X_train: numpy array of shape (n_samples, 30) -- standardized features
-        y_train: numpy array of shape (n_samples,) -- binary labels (0 or 1)
-        X_val:   numpy array of shape (n_val, 30) -- standardized
-        y_val:   numpy array of shape (n_val,) -- validation labels
-    
-    Returns:
-        predict: callable that takes X (n, 30) and returns y_pred (n,) of 0s and 1s
-    """
-    # TODO: train a model and return a predict function
-    # 1. Combine train and validation data to maximize training samples
     X_full = np.vstack([X_train, X_val])
     y_full = np.concatenate([y_train, y_val])
     
-    # 2. Fit a standard linear classifier
-    model = LogisticRegression(max_iter=1000, random_state=123)
-    model.fit(X_full, y_full)
+    ensemble = VotingClassifier(
+        estimators=[
+            ("lr", LogisticRegression(C=0.5, max_iter=1000, random_state=42)),
+            ("svc", SVC(C=1.5, kernel="rbf", gamma="scale", probability=True, random_state=42)),
+            ("et", ExtraTreesClassifier(n_estimators=100, max_depth=6, random_state=42))
+        ],
+        voting="soft",
+        weights=[1, 2, 1]  # Weight the RBF SVM slightly higher
+    )
     
-    # 3. Return the model's predict method directly as the callable
-    return model.predict
-    pass
+    ensemble.fit(X_full, y_full)
+    return ensemble.predict
