@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:48:47.479Z",
+  "generated_at": "2026-10-29T20:50:42.409Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -769,6 +769,19 @@
       "last_pushed_at": "2026-10-29T20:48:46.538Z",
       "language": "python",
       "lines": 17
+    },
+    "problem:181": {
+      "kind": "problem",
+      "id": "181",
+      "title": "Sampling Distribution of the Mean",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/181",
+      "path": "problems/0181-sampling-distribution-of-the-mean",
+      "first_solved_at": "2026-10-29T20:50:41.512Z",
+      "last_pushed_at": "2026-10-29T20:50:41.512Z",
+      "language": "python",
+      "lines": 27
     }
   }
 }

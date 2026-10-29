@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**61** solved · 47 problems · 2 labs · 12 math
+**62** solved · 48 problems · 2 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -44,6 +44,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Random Shuffle of Dataset](https://www.deep-ml.com/problems/29) | easy | 2026-10-29 | [solution](problems/0029-random-shuffle-of-dataset) |
 | [Random Train/Validation/Test Split with Shuffling](https://www.deep-ml.com/problems/1058) | easy | 2026-10-12 | [solution](problems/1058-random-train-validation-test-split-with-shuffling) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-10-12 | [solution](problems/0003-reshape-matrix) |
+| [Sampling Distribution of the Mean](https://www.deep-ml.com/problems/181) | easy | 2026-10-29 | [solution](problems/0181-sampling-distribution-of-the-mean) |
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-10-11 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-29 | [solution](problems/0024-single-neuron) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-10-11 | [solution](problems/0002-transpose-of-a-matrix) |
