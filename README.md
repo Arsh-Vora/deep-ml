@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**70** solved · 51 problems · 2 labs · 17 math
+**71** solved · 52 problems · 2 labs · 17 math
 
 ![Coverage](./coverage.svg)
 
@@ -55,6 +55,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Eigenvalues of a Matrix](https://www.deep-ml.com/problems/6) | medium | 2026-10-27 | [solution](problems/0006-calculate-eigenvalues-of-a-matrix) |
 | [Dummy Classifier Baseline](https://www.deep-ml.com/problems/847) | medium | 2026-10-15 | [solution](problems/0847-dummy-classifier-baseline) |
 | [Dummy Regressor Baseline](https://www.deep-ml.com/problems/848) | medium | 2026-10-15 | [solution](problems/0848-dummy-regressor-baseline) |
+| [Gaussian Elimination for Solving Linear Systems](https://www.deep-ml.com/problems/58) | medium | 2026-11-01 | [solution](problems/0058-gaussian-elimination-for-solving-linear-systems) |
 | [Matrix Rank](https://www.deep-ml.com/problems/329) | medium | 2026-10-31 | [solution](problems/0329-matrix-rank) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-11 | [solution](problems/0009-matrix-times-matrix) |
 | [Mini-Batch Gradient Descent Step for Linear Regression](https://www.deep-ml.com/problems/803) | medium | 2026-10-22 | [solution](problems/0803-mini-batch-gradient-descent-step-for-linear-regression) |
