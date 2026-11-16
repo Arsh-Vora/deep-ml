@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:17:43.660Z",
+  "generated_at": "2026-11-16T15:20:13.057Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -970,6 +970,19 @@
       "path": "math/0032-softmax-and-cross-entropy",
       "first_solved_at": "2026-11-16T15:17:41.963Z",
       "last_pushed_at": "2026-11-16T15:17:41.963Z"
+    },
+    "problem:215": {
+      "kind": "problem",
+      "id": "215",
+      "title": "Partial Derivatives of Multivariable Functions",
+      "difficulty": "medium",
+      "category": "Calculus",
+      "url": "https://www.deep-ml.com/problems/215",
+      "path": "problems/0215-partial-derivatives-of-multivariable-functions",
+      "first_solved_at": "2026-11-16T15:20:11.452Z",
+      "last_pushed_at": "2026-11-16T15:20:11.452Z",
+      "language": "python",
+      "lines": 49
     }
   }
 }
